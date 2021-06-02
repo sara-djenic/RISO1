@@ -2,6 +2,6 @@ FROM nginx
 
 COPY index.html /usr/share/nginx/html
 
-EXPOSE 80
+EXPOSE 80:8000
 
 CMD ["nginx", "-g", "deamon off;"]
