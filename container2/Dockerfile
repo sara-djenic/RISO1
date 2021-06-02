@@ -4,4 +4,4 @@ COPY index.html /usr/share/nginx/html
 
 EXPOSE 80:8000
 
-CMD ["nginx", "-g", "deamon off;"]
+CMD ["nginx", "-g", "daemon off;"]
